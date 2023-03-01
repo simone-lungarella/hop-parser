@@ -1,4 +1,6 @@
 # hop-parser
+<img src="https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white" />
+
 
 This is a script that parses files having extension <b>.hop</b> to search for duplicated lines that make a <i>CNC machine</i> stop, select a tool, and restart when selecting the tool that is already being used. This behavior is caused by the <i>WZ</i> command, which is used to select a tool in a more modern CNC machine while not causing any issues with older ones.
 
